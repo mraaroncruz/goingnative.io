@@ -1,0 +1,25 @@
+// Colors
+header.navigation {
+  background-color: $navigation-section;
+  color: $navigation-text;
+  border-bottom: none;
+}
+
+.headline-container .headline-sub {
+  background-color: $dark;
+}
+
+.headline-container .headline-minor {
+  color: $light-text;
+}
+
+.headline {
+  background-color: $headline-section;
+  color: $headline-text;
+}
+
+footer {
+  background-color: $footer-section;
+  color: $footer-text;
+}
+

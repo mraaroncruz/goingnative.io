@@ -3,53 +3,56 @@ title: Going Native
 ---
 
 <section class="headline">
-  <div class="headline-container">
-    <h2 class="headline-sub"><%= data.content.header.subhead %></h2>
-    <h1 class="headline-text"><%= data.content.header.headline %></h1>
-    <h3 class="headline-description"><%= data.content.header.description %></h3>
+  <div class="container">
+    <div class="headline-container">
+      <h2 class="headline-sub"><%= data.content.header.subhead %></h2>
+      <h1 class="headline-text"><%= data.content.header.headline %></h1>
+      <h3 class="headline-minor"><%= data.content.header.description %></h3>
+      <p class="headline-description"><%= data.content.header.text %></p>
+    </div>
   </div>
 </section>
 
 <section class="features">
-  <% data.content.features.each do |feature| %>
-    <div class="l_cell feature">
-      <i class="feature-icon icon-<%= feature.icon %>"></i>
-      <h3 class="feature-name"><%= feature.name %></h3>
-      <p class="section-body feature-description">
-        <%= feature.description %>
-      </p>
-    </div>
-  <% end %>
-</section>
-
-<section class="testimonials">
-  <h3 class="section-title">What People Are Saying About Aaron</h3>
+  <div class="container">
+    <% data.content.features.each do |feature| %>
+      <div class="l_cell feature">
+        <i class="feature-icon icon-<%= feature.icon %>"></i>
+        <h3 class="feature-name"><%= feature.name %></h3>
+        <p class="section-body feature-description">
+          <%= feature.description %>
+        </p>
+      </div>
+    <% end %>
+  </div>
 </section>
 
 <footer>
-  <div class="l_cell footer-cell about">
-    <h3 class="cell-title"><%= data.content.footer.about.title %></h3>
-    <p class="cell-body"><%= data.content.footer.about.description %></p>
-  </div>
-  <div class="l_cell footer-cell social">
-    <h3 class="cell-title"><%= data.content.footer.social.title %></h3>
-    <ul class="social-links">
-      <% data.content.footer.social.sites.each do |site| %>
-        <a href="<%= site.link %>">
-          <i class="social-icon icon-<%= site.icon %>"></i>
-        </a>
-      <% end %>
-    </ul>
-  </div>
-  <div class="l_cell footer-cell address">
-    <h3 class="cell-title"><%= data.content.footer.address.title %></h3>
-    <p class="cell-body">
-      <% data.content.footer.address.lines.each_with_index do |line, i| %>
-        <%= line %>
-        <% if i < data.content.footer.address.lines.size - 1 %>
-          <br />
+  <div class="container">
+    <div class="l_cell footer-cell about">
+      <h3 class="cell-title"><%= data.content.footer.about.title %></h3>
+      <p class="cell-body"><%= data.content.footer.about.description %></p>
+    </div>
+    <div class="l_cell footer-cell social">
+      <h3 class="cell-title"><%= data.content.footer.social.title %></h3>
+      <ul class="social-links">
+        <% data.content.footer.social.sites.each do |site| %>
+          <a href="<%= site.link %>">
+            <img src="/images/<%= site.icon %>.svg" class="social-icon icon-<%= site.icon %>">
+          </a>
         <% end %>
-      <% end %>
-    </p>
+      </ul>
+    </div>
+    <div class="l_cell footer-cell address">
+      <h3 class="cell-title"><%= data.content.footer.address.title %></h3>
+      <p class="cell-body">
+        <% data.content.footer.address.lines.each_with_index do |line, i| %>
+          <%= line %>
+          <% if i < data.content.footer.address.lines.size - 1 %>
+            <br />
+          <% end %>
+        <% end %>
+      </p>
+    </div>
   </div>
 </footer>

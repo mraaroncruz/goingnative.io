@@ -3,7 +3,7 @@ header:
   subhead: screencasts about native app development
   headline: Android and iOS sitting in a tree
   description: Learning native app development and building the APIs they communicate with
-
+  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 ###################### FEATURES ##########################
 features:
   - icon: foo
@@ -27,11 +27,8 @@ footer:
   social:
     title: Social Links
     sites:
-      - link: http://twitter.com/mraaroncruz
-        icon: twitter
-
-      - link: http://twitter.com/mraaroncruz
-        icon: twitter
+      - link: http://github.com/pferdefleisch
+        icon: github
 
       - link: http://twitter.com/mraaroncruz
         icon: twitter

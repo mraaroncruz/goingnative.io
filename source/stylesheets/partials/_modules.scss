@@ -1,11 +1,24 @@
 @import 'modules/nav';
+@import 'modules/headlines';
 
-.headline-container {
-  @include span-columns(8);
-  @include shift(2);
-  text-align: center;
-}
+/* .headline-container { */
+  /* @include span-columns(8); */
+  /* @include shift(2); */
+  /* text-align: center; */
+/* } */
 
 .footer-cell {
   text-align: left;
+
+  .cell-title {
+    padding-bottom: 1rem;
+    border-bottom: .12rem solid $light-text;
+    margin-bottom: 1rem;
+  }
+}
+
+.address {
+  p {
+    line-height: 1.5rem;
+  }
 }

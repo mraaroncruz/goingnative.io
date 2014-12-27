@@ -22,9 +22,7 @@
   </head>
   <body class="<%= page_classes %>" ng-app="thepickmachine">
     <%= partial "nav" %>
-    <div class="container">
-      <%= yield %>
-    </div>
+    <%= yield %>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <%= javascript_include_tag  "application" %>
