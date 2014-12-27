@@ -6,21 +6,12 @@ body {
   color: #666;
 }
 
-#application {
-  @include outer-container(960px);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Raleway', Helvetica, Arial;
 }
 
 .container {
-  @include outer-container;
+  @include outer-container(960px);
 }
 
 .l_horizontal-list {
@@ -41,6 +32,15 @@ section {
 }
 
 .l_cell {
-  @include span-columns(4);
   text-align: center;
+
+  @include span-columns(4);
+
+  @include media($tablet) {
+    @include span-columns(8);
+  }
+
+  @include media($mobile) {
+    @include span-columns(4);
+  }
 }
