@@ -18,6 +18,14 @@ features:
     name: The API
     description: We need a way for the apps to manage data so we will spend some time creating an API for both apps to communicate with. If you want to up your hourly rate as a developer, these skills will push you to the next level.
 
+
+###################### NEWSLETTER ##########################
+subscribe:
+  headline: Sign up for launch updates
+  subhead: We're working hard to get these videos done
+  placeholder: email address
+
+
 ###################### FOOTER ##########################
 footer:
   about:
