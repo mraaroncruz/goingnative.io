@@ -1,12 +1,11 @@
 // Colors
 header.navigation {
-  background-color: $navigation-section;
-  color: $navigation-text;
   border-bottom: none;
 }
 
 .headline-container .headline-sub {
-  background-color: $dark;
+  background-color: $light;
+  color: $dark-text;
 }
 
 .headline-container .headline-minor {

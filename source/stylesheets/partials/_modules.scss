@@ -1,11 +1,15 @@
 @import 'modules/nav';
 @import 'modules/headlines';
 
-/* .headline-container { */
-  /* @include span-columns(8); */
-  /* @include shift(2); */
-  /* text-align: center; */
-/* } */
+.feature-name {
+  margin-bottom: 1.5rem;
+}
+
+.feature-icon {
+  height: 5rem;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+}
 
 .footer-cell {
   text-align: left;
@@ -15,6 +19,11 @@
     border-bottom: .12rem solid $light-text;
     margin-bottom: 1rem;
   }
+}
+
+.social-icon {
+  margin-right: 1rem;
+  height: 3rem;
 }
 
 .address {

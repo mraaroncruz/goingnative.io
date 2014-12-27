@@ -30,6 +30,21 @@ section, footer {
   .section-title {
     text-align: center;
   }
+
+
+  .section-body {
+    font-size: 14px;
+  }
+}
+
+
+.l_cells {
+  @include media($tablet) {
+    padding-bottom: 3rem;
+  }
+  @include media($mobile) {
+    padding-bottom: 3rem;
+  }
 }
 
 .l_cell {

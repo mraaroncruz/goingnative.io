@@ -13,11 +13,11 @@ title: Going Native
   </div>
 </section>
 
-<section class="features">
+<section class="features l_cells">
   <div class="container">
     <% data.content.features.each do |feature| %>
       <div class="l_cell feature">
-        <i class="feature-icon icon-<%= feature.icon %>"></i>
+        <img class="feature-icon icon-<%= feature.icon %>" src="/images/<%= feature.icon %>.svg"/>
         <h3 class="feature-name"><%= feature.name %></h3>
         <p class="section-body feature-description">
           <%= feature.description %>
@@ -27,7 +27,7 @@ title: Going Native
   </div>
 </section>
 
-<footer>
+<footer class="l_cells">
   <div class="container">
     <div class="l_cell footer-cell about">
       <h3 class="cell-title"><%= data.content.footer.about.title %></h3>

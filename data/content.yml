@@ -1,22 +1,22 @@
 ###################### HEADER ##########################
 header:
-  subhead: screencasts about native app development
+  subhead: coming soon
   headline: Android and iOS sitting in a tree
-  description: Learning native app development and building the APIs they communicate with
-  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  description: Screencast courses to teach you how to create native mobile apps using the Android SDK and iOS's Cocoa Touch framework.
+  text: Also learn API development and the architecture and design you will need to make your apps easily portable back and forth
 ###################### FEATURES ##########################
 features:
-  - icon: foo
-    name: Level Up
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  - icon: android
+    name: Android
+    description: We will start from scratch, building Android apps step by step, thinking of portability first. I like to think of this style as Portability First Development. We will come out of this with a working, useful and easily modifiable Android app.
 
-  - icon: foo
-    name: Screencasts
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  - icon: apple
+    name: iOS
+    description: We will build the same app using Objective C and possibly the new Swift programming language. You will be able to learn best practices to make this process much less painful than you can believe.
 
-  - icon: foo
-    name: Native Learning
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  - icon: stack
+    name: The API
+    description: We need a way for the apps to manage data so we will spend some time creating an API for both apps to communicate with. If you want to up your hourly rate as a developer, these skills will push you to the next level.
 
 ###################### FOOTER ##########################
 footer:
@@ -34,8 +34,9 @@ footer:
         icon: twitter
 
   address:
-    title: Address
+    title: Contact
     lines:
+      - Aaron Cruz
       - Squarebracket eU
       - Weidlingbachgasse 14
       - 3411 Weidling, Austria
