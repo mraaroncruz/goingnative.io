@@ -1,0 +1,44 @@
+###################### HEADER ##########################
+header:
+  subhead: screencasts about native app development
+  headline: Android and iOS sitting in a tree
+  description: Learning native app development and building the APIs they communicate with
+
+###################### FEATURES ##########################
+features:
+  - icon: foo
+    name: Level Up
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+  - icon: foo
+    name: Screencasts
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+  - icon: foo
+    name: Native Learning
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+###################### FOOTER ##########################
+footer:
+  about:
+    title: About
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+  social:
+    title: Social Links
+    sites:
+      - link: http://twitter.com/mraaroncruz
+        icon: twitter
+
+      - link: http://twitter.com/mraaroncruz
+        icon: twitter
+
+      - link: http://twitter.com/mraaroncruz
+        icon: twitter
+
+  address:
+    title: Address
+    lines:
+      - Squarebracket eU
+      - Weidlingbachgasse 14
+      - 3411 Weidling, Austria
