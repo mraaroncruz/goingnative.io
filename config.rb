@@ -3,6 +3,8 @@ activate :deploy do |deploy|
 end
 
 set :site_name, "goingnative"
+set :analytics_code, "UA-58049201-1"
+#
 ###
 # Compass
 ###

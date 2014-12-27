@@ -1,3 +1,13 @@
+###################### META ##########################
+meta:
+  title: Build Native Android and iOS Apps
+  description: Screencasts that teach Android and iOS app creation and bridging the two platforms.
+  keywords:
+    - screencasts
+    - Cocoa Touch
+    - Android
+    - iOS
+    - API development
 ###################### HEADER ##########################
 header:
   subhead: coming soon
