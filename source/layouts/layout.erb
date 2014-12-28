@@ -18,9 +18,9 @@
     <%= stylesheet_link_tag "normalize", "all" %>
   </head>
   <body class="<%= page_classes %>">
-    <%= partial "nav" %>
+    <%= partial "partials/nav" %>
     <%= yield %>
     <%= javascript_include_tag  "application" %>
-    <%= partial 'analytics' %>
+    <%= partial 'partials/analytics' %>
   </body>
 </html>

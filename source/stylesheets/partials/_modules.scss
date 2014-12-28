@@ -37,6 +37,10 @@
   color: $signup-form-color;
   @include clearfix;
 
+  .signup-form-container {
+    margin-bottom: 3rem;
+  }
+
   .container {
     @include span-columns(6);
     @include shift(3);
@@ -77,5 +81,11 @@
       margin: 0 auto 1em;
       width: 70%;
     }
+  }
+}
+
+.survey {
+  a {
+    color: $base-button-color;
   }
 }
