@@ -17,7 +17,7 @@ title: Going Native
   <div class="container">
     <% data.content.features.each do |feature| %>
       <div class="l_cell feature">
-        <img class="feature-icon icon-<%= feature.icon %>" src="/images/<%= feature.icon %>.svg"/>
+        <img class="feature-icon icon-<%= feature.icon %>" alt="<%= feature.icon %>" src="/images/<%= feature.icon %>.svg"/>
         <h3 class="feature-name"><%= feature.name %></h3>
         <p class="cell-body feature-description">
           <%= feature.description %>
@@ -43,13 +43,13 @@ title: Going Native
     </div>
     <div class="l_cell footer-cell social">
       <h3 class="cell-title"><%= data.content.footer.social.title %></h3>
-      <ul class="social-links">
+      <div class="social-links">
         <% data.content.footer.social.sites.each do |site| %>
           <a href="<%= site.link %>">
-            <img src="/images/<%= site.icon %>.svg" class="social-icon icon-<%= site.icon %>">
+            <img alt="<%= site.icon %>" src="/images/<%= site.icon %>.svg" class="social-icon icon-<%= site.icon %>" />
           </a>
         <% end %>
-      </ul>
+      </div>
     </div>
     <div class="l_cell footer-cell address">
       <h3 class="cell-title"><%= data.content.footer.address.title %></h3>
